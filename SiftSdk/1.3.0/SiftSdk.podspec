@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   spec.swift_version = "5.2.4"
 
-  spec.source       = { :git => "git@github.comcast.com:ProductAnalyticsBehaviorScience/sift-ios-sdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:thedatasherpas/SIFT_SDK_iOS.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "SiftSdk", "SiftSdk/**/*.{h,m,swit}"
 
