@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "git@github.com:thedatasherpas/SIFT_SDK_iOS.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "SiftSdk", "SiftSdk/**/*.{h,m,swit}"
+  spec.source_files  = "SiftSdk", "SiftSdk/**/*.{swift}"
 
   spec.dependency "SnowplowTracker", '1.6.0-1.3.0'
   spec.dependency "JSONSchema", "0.5.1"
